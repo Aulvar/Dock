@@ -1,9 +1,9 @@
 import React, { useRef, useState } from 'react';
 import { motion, useMotionValue, useSpring, useTransform, AnimatePresence } from 'framer-motion';
-
-const SIZE = 48; // default icon size
-const MAX = 80;  // hover size
-const DIST = 150; // mouse trigger radius
+ {/* Feel Free to Customize this */}
+const SIZE = 48; 
+const MAX = 80;  
+const DIST = 150; 
 
 export const Dock = ({ items }: { items: any[] }) => {
   const mouseX = useMotionValue(Infinity);
