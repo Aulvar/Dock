@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import { motion, useMotionValue, useSpring, useTransform, AnimatePresence } from 'framer-motion';
+
  {/* Feel Free to Customize this */}
 const SIZE = 48; 
 const MAX = 80;  
